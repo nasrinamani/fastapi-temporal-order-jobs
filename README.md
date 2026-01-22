@@ -19,6 +19,7 @@ Activities are hard-coded to fail on the first two attempts to prove Temporal's 
 ## AI Usage Disclosure
 I used Gemini to assist with:
 - Understanding what Temporal is and how the workflow/worker architecture operates.
+- Understanding how to use Temporal's decorators like @workflow.defn, @workflow.run, and @workflow.query to structure the execution and state-access logic.
 - Organizing the logic into separate Python modules.
 - Learning how to use the `imports_passed_through` function to fix import errors within the Temporal sandbox.
 - Troubleshooting workflow import requirements.
