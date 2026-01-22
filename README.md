@@ -1,5 +1,5 @@
 # First Temporal Project: The Self-Healing Job System
-I built this project to learn how to make a backend that is reliable. I used FastAPI for the API and Temporal to handle the background work. The main goal of this project is to show how a system can "heal itself" if a task fails. I'm using Docker Compose to run the Temporal server as recommended.
+I built this project to learn how to make a backend that is reliable. I used **FastAPI** for the API and **Temporal** to handle the background work. The main goal of this project is to show how a system can "heal itself" if a task fails. I'm using **Docker Compose** to run the Temporal server as recommended.
 
 Activities are hard-coded to fail on the first two attempts to prove Temporal's built-in retry and state persistence capabilities.
 
