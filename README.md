@@ -6,9 +6,9 @@ Activities are hard-coded to fail on the first two attempts to prove Temporal's 
 ## Getting Started
 1. Start Temporal
 2. Run worker
-    `python worker.py`
+    ```python worker.py```
 3. Start API 
-    `uvicorn main:app --reload`
+    ```uvicorn main:app --reload```
 
 ## Verification of Requirements
 1. Submit Job: Call POST /jobs to receive a job_id.
